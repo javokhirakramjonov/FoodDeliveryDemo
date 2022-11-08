@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.screen.DescriptionScreen">
+
+    <ImageView
+        android:id="@+id/imageFood"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/test_food"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textNameFood"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:ellipsize="end"
+        android:fontFamily="@font/bebas_neue"
+        android:maxLines="2"
+        android:textColor="@color/dark"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageClock"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageFood"
+        tools:text="SALMON" />
+
+    <FrameLayout
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/background_food_icon_like"
+        android:backgroundTint="#33FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="2dp"
+            android:src="@drawable/ic_back" />
+    </FrameLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:text="The nautilus"
+        android:textColor="@color/secondary"
+        app:layout_constraintBottom_toBottomOf="@+id/textTimeFood"
+        app:layout_constraintStart_toStartOf="@id/textNameFood"
+        app:layout_constraintTop_toTopOf="@+id/textTimeFood" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageClock"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="20dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:src="@drawable/ic_clock"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imageFood" />
+
+    <TextView
+        android:id="@+id/textTimeFood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/secondary"
+        app:layout_constraintEnd_toEndOf="@id/imageClock"
+        app:layout_constraintTop_toBottomOf="@+id/textNameFood"
+        tools:text="34 minutes" />
+
+
+    <TextView
+        android:id="@+id/text_description_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Description"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/textNameFood"
+        app:layout_constraintTop_toBottomOf="@id/textTimeFood" />
+
+    <ScrollView
+        android:id="@+id/containerDescription"
+        android:layout_width="0dp"
+        android:layout_height="105dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_description_title">
+
+        <TextView
+            android:id="@+id/textDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/gray"
+            tools:text="@tools:sample/lorem[30]" />
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textQuantityTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Quantity"
+        android:textColor="@color/primary"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="@id/textNameFood"
+        app:layout_constraintTop_toBottomOf="@id/containerDescription" />
+
+    <View
+        android:id="@+id/containerQuantity"
+        android:layout_width="157dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/background_button"
+        android:backgroundTint="@color/light"
+        app:layout_constraintStart_toStartOf="@id/textNameFood"
+        app:layout_constraintTop_toBottomOf="@id/textQuantityTitle" />
+
+    <EditText
+        android:id="@+id/textQuantity"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:background="@null"
+        android:digits="0123456789"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:inputType="numberDecimal"
+        android:maxLength="3"
+        android:maxLines="1"
+        android:textColor="@color/dark"
+        app:layout_constraintBottom_toBottomOf="@id/containerQuantity"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlus"
+        app:layout_constraintStart_toEndOf="@+id/buttonMinus"
+        app:layout_constraintTop_toTopOf="@id/containerQuantity"
+        tools:text="1" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/buttonMinus"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="10dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="2dp"
+        android:src="@drawable/selector_minus"
+        app:layout_constraintBottom_toBottomOf="@id/containerQuantity"
+        app:layout_constraintStart_toStartOf="@+id/containerQuantity"
+        app:layout_constraintTop_toTopOf="@id/containerQuantity" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/buttonPlus"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="10dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="2dp"
+        android:src="@drawable/selector_plus"
+        app:layout_constraintBottom_toBottomOf="@id/containerQuantity"
+        app:layout_constraintEnd_toEndOf="@id/containerQuantity"
+        app:layout_constraintTop_toTopOf="@id/containerQuantity" />
+
+    <TextView
+        android:id="@+id/textSubTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/bebas_neue"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/containerQuantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/containerQuantity"
+        tools:text="$ 15.00" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Sub total"
+        android:textColor="@color/dark"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@id/textSubTotal"
+        app:layout_constraintEnd_toEndOf="@id/textSubTotal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonAddToBasket"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background_button_selector"
+        android:fontFamily="@font/bebas_neue"
+        android:text="Add to basket"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/containerQuantity" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_graph"
+    app:startDestination="@id/splashScreen">
+
+    <fragment
+        android:id="@+id/splashScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.SplashScreen"
+        android:label="screen_splash"
+        tools:layout="@layout/screen_splash">
+        <action
+            android:id="@+id/action_splashScreen_to_onBoardingScreen"
+            app:destination="@id/onBoardingScreen"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/splashScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/onBoardingScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.OnBoardingScreen"
+        android:label="screen_onboarding"
+        tools:layout="@layout/screen_onboarding">
+        <action
+            android:id="@+id/action_onBoardingScreen_to_getStartedScreen"
+            app:destination="@id/getStartedScreen"
+            app:popUpTo="@id/onBoardingScreen"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/getStartedScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.GetStartedScreen"
+        android:label="screen_get_started"
+        tools:layout="@layout/screen_get_started">
+        <action
+            android:id="@+id/action_getStartedScreen_to_loginScreen"
+            app:destination="@id/loginScreen" />
+        <action
+            android:id="@+id/action_getStartedScreen_to_registerScreen"
+            app:destination="@id/registerScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.LoginScreen"
+        android:label="screen_login"
+        tools:layout="@layout/screen_login">
+        <action
+            android:id="@+id/action_loginScreen_to_registerScreen"
+            app:destination="@id/registerScreen" />
+        <action
+            android:id="@+id/action_loginScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/loginScreen"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_loginScreen_to_forgotPasswordScreen"
+            app:destination="@id/forgotPasswordScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.RegisterScreen"
+        android:label="screen_register"
+        tools:layout="@layout/screen_register">
+        <action
+            android:id="@+id/action_registerScreen_to_loginScreen"
+            app:destination="@id/loginScreen" />
+        <action
+            android:id="@+id/action_registerScreen_to_verifyScreen"
+            app:destination="@id/verifyScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.MainScreen"
+        android:label="screen_main"
+        tools:layout="@layout/screen_main">
+        <action
+            android:id="@+id/action_mainScreen_to_descriptionScreen"
+            app:destination="@id/descriptionScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.ForgotPasswordScreen"
+        android:label="screen_forgot_password"
+        tools:layout="@layout/screen_forgot_password">
+        <action
+            android:id="@+id/action_forgotPasswordScreen_to_verifyScreen"
+            app:destination="@id/verifyScreen" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifyScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.VerifyScreen"
+        android:label="screen_send_code"
+        tools:layout="@layout/screen_send_code">
+        <action
+            android:id="@+id/action_verifyScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/verifyScreen"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="user"
+            app:argType="uz.gita.fooddeliverydemo.data.authData.RegisterData"
+            app:nullable="true" />
+        <argument
+            android:name="token"
+            app:argType="com.google.firebase.auth.PhoneAuthProvider$ForceResendingToken" />
+        <action
+            android:id="@+id/action_verifyScreen_to_resetPasswordScreen"
+            app:destination="@id/resetPasswordScreen" />
+        <argument
+            android:name="userForgotPassword"
+            app:argType="uz.gita.fooddeliverydemo.data.authData.ResetData"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetPasswordScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.ResetPasswordScreen"
+        android:label="screen_reset_password"
+        tools:layout="@layout/screen_reset_password">
+        <action
+            android:id="@+id/action_resetPasswordScreen_to_mainScreen"
+            app:destination="@id/mainScreen"
+            app:popUpTo="@id/resetPasswordScreen"
+            app:popUpToInclusive="true" />
+        <argument
+            android:name="phone"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/descriptionScreen"
+        android:name="uz.gita.fooddeliverydemo.presentation.ui.screen.DescriptionScreen"
+        android:label="screen_desctiption"
+        tools:layout="@layout/screen_description">
+        <argument
+            android:name="food"
+            app:argType="uz.gita.fooddeliverydemo.data.foodData.FoodData" />
+    </fragment>
+</navigation>

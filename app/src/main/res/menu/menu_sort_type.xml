@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/lowHigh"
+        android:title="@string/low_high_cost"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/highLow"
+        android:title="@string/high_low_cost"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/lowHighName"
+        android:title="@string/a_z_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/highLowName"
+        android:title="@string/z_a_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/lowHighRestaurant"
+        android:title="@string/by_restaurant"
+        app:showAsAction="never"/>
+</menu>

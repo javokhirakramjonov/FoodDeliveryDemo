@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.screen.LoginScreen"
+    >
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_cancel"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_login"
+        android:textAllCaps="true"
+        android:textColor="@color/dark"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_cancel" />
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_phone"
+        android:textColor="@color/primary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextPhone"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:autofillHints="phone"
+        android:background="@drawable/default_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:gravity="start|center_vertical"
+        android:hint="@string/hint_phone"
+        android:inputType="phone"
+        android:maxLength="13"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/gray"
+
+        app:layout_constraintBottom_toTopOf="@+id/password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_password"
+        android:textColor="@color/primary"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/editPassword"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="0dp"
+
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:autofillHints="password"
+        android:background="@drawable/default_edit_text"
+        android:ems="10"
+        android:fontFamily="@font/poppins"
+        android:gravity="center|start"
+        android:hint="@string/text_password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:paddingStart="20dp"
+        android:paddingTop="5dp"
+        android:paddingEnd="20dp"
+        android:textColor="@color/dark"
+        android:textColorHint="@color/gray"
+
+        app:layout_constraintBottom_toTopOf="@+id/button_forgotPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/button_eye"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginEnd="10dp"
+        android:padding="2dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editPassword"
+        app:layout_constraintEnd_toEndOf="@+id/editPassword"
+        app:layout_constraintTop_toTopOf="@+id/editPassword"
+        app:srcCompat="@drawable/ic_eye" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/background_button_selector"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_login"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_register"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/button_register"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="center"
+        android:text="@string/text_login_register"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/button_forgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/poppins_medium"
+        android:text="@string/text_forgot_password"
+        android:textColor="@color/gray"
+        app:layout_constraintBottom_toTopOf="@+id/buttonLogin"
+        app:layout_constraintEnd_toEndOf="@+id/editTextPhone"
+        />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/loader"
+        style="@android:style/Widget.Material.ProgressBar.Small"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:theme="@style/ProgressColored"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

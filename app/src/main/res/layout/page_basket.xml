@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.ui.screen.page.BasketPage">
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_basket"
+        android:textColor="@color/dark"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewFoods"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@id/textTotal"
+        app:layout_constraintTop_toBottomOf="@id/textView17"
+        tools:listitem="@layout/item_food_in_basket" />
+
+    <TextView
+        android:id="@+id/textTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_total"
+        android:textColor="@color/dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/textSumTotal"
+        app:layout_constraintStart_toStartOf="@id/buttonProceedToCheckOut" />
+
+    <TextView
+        android:id="@+id/textSumTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/bebas_neue"
+        android:textColor="@color/secondary"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@id/buttonProceedToCheckOut"
+        app:layout_constraintStart_toStartOf="@id/buttonProceedToCheckOut"
+        tools:text="$ 65.00" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonProceedToCheckOut"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/background_button"
+        android:backgroundTint="@color/primary"
+        android:fontFamily="@font/bebas_neue"
+        android:text="@string/text_proceed_to_checkout"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.core.widget.ContentLoadingProgressBar
+        android:id="@+id/loader"
+        style="@android:style/Widget.Material.ProgressBar.Small"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:theme="@style/ProgressColored"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

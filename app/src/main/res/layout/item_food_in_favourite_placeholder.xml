@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageFood"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@color/gray"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedImage" />
+
+    <TextView
+        android:id="@+id/textNameFood"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/gray"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/dark"
+        app:layout_constraintStart_toEndOf="@+id/imageFood"
+        app:layout_constraintTop_toTopOf="@+id/imageFood" />
+
+    <TextView
+        android:id="@+id/textCostFood"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:background="@color/gray"
+        android:fontFamily="@font/bebas_neue"
+        android:textColor="@color/primary"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageFood"
+        app:layout_constraintStart_toEndOf="@+id/imageFood" />
+
+    <FrameLayout
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/background_food_icon_like"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <FrameLayout
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:background="@drawable/background_food_icon_like"
+        android:backgroundTint="@color/gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

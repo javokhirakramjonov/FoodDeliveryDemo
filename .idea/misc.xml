@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/active_edit_text.xml" value="0.116" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/background_button.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/background_button_outlined.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/background_button_selector.xml" value="0.173" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/background_food_icon_like.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/background_restaurant.xml" value="0.1725" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/backrgound_button.xml" value="0.164" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/backrgound_button_putlined.xml" value="0.1675" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/correct_edit_text.xml" value="0.116" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/default_edit_text.xml" value="0.116" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/error_edit_text.xml" value="0.116" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/home_indicator.xml" value="0.164" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_active_li.xml" value="0.1635" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_active_like.xml" value="0.1725" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_ads1.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_basket.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_eye.xml" value="0.161" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_eye_hidden.xml" value="0.161" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_home.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_like.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_like_active.xml" value="0.1725" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_minus_gray.xml" value="0.1615" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_plus.xml" value="0.1615" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_plus_gray.xml" value="0.1615" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_search.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_test_mac.xml" value="0.1865" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/ic_trash.xml" value="0.1995" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/item_home_basket.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/item_home_favourite.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/item_home_menu.xml" value="0.1895" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/item_home_search.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/item_home_user.xml" value="0.177" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/selector_food_tab.xml" value="0.1255" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/selector_minus.xml" value="0.1615" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/drawable/selector_plus.xml" value="0.1615" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/font/bebas_neue.xml" value="0.2703125" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/font/poppins.xml" value="0.23020833333333332" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/font/poppins_medium.xml" value="0.23020833333333332" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/background_restaurant_.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_ads.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_boarding_screen.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_in_basket.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_in_favourite.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_in_favourite_placeholder.xml" value="0.5" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_in_recent.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_in_search_screen.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_food_placeholder.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_number_counter.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_restaurant.xml" value="0.67" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_restaurant_placeholder.xml" value="0.75" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/item_spinner_counter.xml" value="0.9" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_basket.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_favourite.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_home.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_home_old.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_search.xml" value="0.5" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/page_user.xml" value="0.2" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_address_set_up.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_adress_set_up.xml" value="0.5" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_basket.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_description.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_desctiption.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_favourite.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_forgot_password.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_get_started.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_login.xml" value="0.16" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_main.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_onboarding.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_onboarding_1.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_onboarding_2.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_onboarding_3.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_register.xml" value="0.1" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_reset_password.xml" value="0.33" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_search.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_send_code.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_splash.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/screen_splash_1.xml" value="0.2390625" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/scren_payment_setup.xml" value="0.25" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/layout/scren_payment_steup.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/menu/menu_main_screen.xml" value="0.22" />
+        <entry key="..\:/Users/javok/AndroidStudioProjects/FoodDeliveryDemo/app/src/main/res/menu/menu_sort_stype.xml" value="0.2" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
